@@ -1,0 +1,63 @@
+/* Write your code here. */
+.navBarContainer {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-weight: bold;
+  width: 90%;
+  padding-top: 5px;
+}
+
+.logo_container {
+  display: flex;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.logo_image {
+  height: 40px;
+  width: 40px;
+}
+
+.score_container {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .score_container {
+    font-size: 20px;
+    width: 40%;
+  }
+
+  .logo_image {
+    height: 60px;
+    width: 60px;
+  }
+
+  .logo_container {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .score_container {
+    font-size: 20px;
+    width: 20%;
+  }
+
+  .logo_image {
+    height: 60px;
+    width: 60px;
+  }
+
+  .logo_container {
+    font-size: 22px;
+  }
+
+  .navBarContainer {
+    width: 70%;
+  }
+}
